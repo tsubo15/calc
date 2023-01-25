@@ -1,0 +1,135 @@
+body{
+    font-family: 'Zen Maru Gothic', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    background-color: #d8b2ff;
+}
+h1{
+    width: 100vw;
+    overflow-x: hidden;
+    padding: 40px 0px;
+    margin-top: 0;
+    margin-left: 40px;
+    letter-spacing: 13px;
+}
+
+.back{
+    background-color: rgb(39, 39, 39);
+    margin-left: 50px;
+    border-radius: 15px;
+}
+
+.textbox{
+    border-color: rgb(39, 39, 39);
+    background-color: rgb(85, 83, 83);
+    margin: 15px 20px 25px 20px;
+    color: rgb(255, 251, 251);
+    text-align: right;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn-flex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
+
+.btn{
+    margin-bottom: 5px;
+    border-radius: 10px;
+}
+
+.btn-ac{
+    margin-bottom: 5px;
+    border-radius: 10px;
+    background-color: rgb(234, 179, 195);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}
+img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+/* PC用スタイル */
+@media screen and (min-width: 768px) {
+
+    .back{
+        width: 400px;
+        height: 500px;
+        margin-top: 50px;
+    }
+
+    header{
+        height: 140px;
+    }
+        h1{
+            font-size: 40px;
+            margin-left: 50px;
+        }
+
+    .textbox{
+        width: 350px;
+        height: 80px;
+        padding-right: 5px;
+        font-size: 32px;
+    }
+
+    .btn{
+        width: 65px;
+        height: 65px;
+        font-size: 20px;
+    }
+    .btn-ac{
+        width: 65px;
+        height: 65px;
+        font-size: 20px;
+    }
+
+}
+
+/* スマホ用スタイル */
+@media screen and (max-width: 767px) {
+    
+    header{
+        height: 100px;
+    }
+        h1{
+            padding: 25px 0px;
+        }
+
+    .back{
+        width: 350px;
+        height: 500px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+    .textbox{
+        width: 300px;
+        height: 80px;
+        padding-right: 5px;
+        font-size: 28px;
+    }
+
+    .btn{
+        width: 57px;
+        height: 65px;
+        font-size: 18px;
+    }
+    .btn-ac{
+        width: 57px;
+        height: 65px;
+        font-size: 18px;
+    }
+
+}
