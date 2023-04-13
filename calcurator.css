@@ -128,19 +128,21 @@ img {
         font-size: 28px;
     }
 
-    .btn-block {
+    /* .btn-block {
         width: 280px;
         text-align: center;
-    }
+    } */
 
     .btn{
-        width: calc(100%/5.5);
+        /* width: calc(100%/5.5); */
+        width: 52px;
         height: 64px;
         font-size: 12px;
         padding: 20px 12px;
     }
     .btn-ac{
-        width: calc(100%/5.5);
+        /* width: calc(100%/5.5); */
+        width: 52px;
         height: 64px;
         font-size: 12px;
         padding: 20px 12px;
