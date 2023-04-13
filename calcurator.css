@@ -128,16 +128,16 @@ img {
     }
 
     .btn{
-        width: 52px;
+        min-width: 42px;
         height: 64px;
-        font-size: 18px;
-        padding: 20px 0;
+        font-size: 12px;
+        padding: 20px 12px;
     }
     .btn-ac{
-        width: 52px;
+        min-width: 42px;
         height: 64px;
-        font-size: 18px;
-        padding: 20px 0;
+        font-size: 12px;
+        padding: 20px 12px;
     }
 
     footer {
