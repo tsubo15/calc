@@ -36,7 +36,8 @@ h1{
 .btn-flex{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-direction: column;
     margin: 0 20px;
 }
 
@@ -128,13 +129,13 @@ img {
     }
 
     .btn{
-        min-width: 42px;
+        width: 52px;
         height: 64px;
         font-size: 12px;
         padding: 20px 12px;
     }
     .btn-ac{
-        min-width: 42px;
+        width: 52px;
         height: 64px;
         font-size: 12px;
         padding: 20px 12px;
